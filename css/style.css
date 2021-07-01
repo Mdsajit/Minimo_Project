@@ -1,0 +1,267 @@
+@font-face{
+	font-family: PlayfairDisplay-Regular ;
+	src: url(../fonts/playfairdisplay/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+	font-family: Ubuntu-L;
+	src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+@font-face{}
+@font-face{}
+@font-face{}
+@font-face{}
+
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family:PlayfairDisplay-Regular ;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 30px 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+.logo{
+	margin-top: 8px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid red;*/
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu li{
+	    float: left;
+
+}
+.menu ul li a{
+	    margin: 0px 58px;
+	    display: inline-block;
+	    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul li a:hover {
+	color: black;
+	transition: .4s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{}
+.banner_content{}
+
+.banner_content img{
+	width: 100%;
+}
+
+/*banner end*/
+/*perfect start*/
+.perfect{
+	margin: 50px 0;
+}
+.container_2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px  solid red;*/
+}
+.perfect_content{}
+
+.perfect_content h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.perfect_content .text {
+	font-size: 15px;
+	line-height: 28px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+
+}
+
+.common{
+	font-family: Ubuntu-L;
+	font-size: 15px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+
+}
+
+
+
+
+/*perfect end*/
+/*blog start*/
+.blog{
+ padding: 100px 0;
+}
+.single{
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+	padding-bottom: 130px ;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single h1{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 20px 0;
+}
+.single p:last-child{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+
+}
+/*blog end*/
+/*news letter css*/
+.newslatter{
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+.signup{
+	text-align: center;
+}
+.s-h1{
+	color: #333333;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	
+}
+.s_form input{
+	font-family:PlayfairDisplay-Regular ;
+	font-weight: regular;
+	color: #626262;
+	font-size: 14px;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #626262;
+	background: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img
+
+ 
+/*letter css end*/
+/*btn css start*/
+.btn{}
+.container_3{
+	text-align: center;
+}
+.container_3 button{
+	padding: 30px 70px;
+	font-size: 24px;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .5s;
+}
+.container_3 button:hover{
+color: white;
+background-color: #626262;
+cursor: pointer;
+border: 1px solid #ffffff;
+}
+
+
+/*btn css end*/
+/*footer section start*/
+.footer_section{
+	margin-top: 200px;
+	background-color: #f0f0f0;
+	padding: 25px 0;
+}
+.footer_menu{
+	float: left;
+	width: 50%;
+}
+.footer_menu ul{}
+.footer_menu ul li{
+	display: inline-block;
+}
+.footer_menu ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #000000;
+	display: block;
+	padding: 10px 15px;
+}
+
+.icons{
+	text-align: right;
+}
+.icons ul{}
+.icons ul li{
+	display: inline-block;
+	color: black;
+}
+.icons ul li a{
+	display: block;
+	padding: 10px 15px;
+	color: #626262;
+	transition: .4s;
+
+}
+.icons ul li a:hover{
+   color: black;
+}
+.icons ul li:last-child a{
+  padding-right: 0;
+}
+/*footer section end*/
